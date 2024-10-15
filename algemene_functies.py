@@ -1,5 +1,5 @@
 def mijn_functie1(a):
-    return  a * a
+    return  a ** 2
 
 print(mijn_functie1(2))
 print(mijn_functie1(4))
