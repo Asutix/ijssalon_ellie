@@ -1,0 +1,33 @@
+#1 Wat is een pakket
+#Pakketen zijn kant-en-klare uitbreidingen van uw projecten. Ze bevatten functies en variabelen die u vrij kunt gebruiken in uw python project.
+
+#2 Welke twee soorten pakketten kennen we?
+#Pakketen die al bestaan/geinstalleerd zijn in de Python Standard Library en pakketen die je eerst moet importeren (geschreven door derden).
+
+#3 Wat is PyPi
+#PyPi staat voor Python Package Index. Het is een centrale opslagplaats waar u alle pakketten vindt die beschikbaar zijn voor installatie.
+
+#4 Waarvoor staat de afkorting PIP en wat is het?
+#Pakketmanager; Pip Installs Packages of Pip Installs Python. Een pakketmanager om eenvoudig een pakket te installeren die niet standaard is geinstalleerd.
+
+#5 Welk commando gebruikt u om een pakket uit de Python Standard Library te installeren?
+#Strikvraag: Pakketten die aanwezig zijn uit het Python Standard Library hoeven niet geinstalleerd te worden.
+
+#6 Welk commando gebruikt u om een pakket uit de Python Standard Library te importeren?
+#import (niet alleen bij Python Standard Library, maar ook bij andere pakketten)
+
+#7 U heeft een Python-bestand aangemaakt met de naam 'wiskunde.py'. Dit pakket bevat onder meer de functie maal_twee(). Welke commando gebruikt u wanneer u deze functie wilt importeren in uw hoofdcode?
+#from wiskunde import maal_twee
+
+#8 U heeft een Python-bestand aangemaakt met de naam 'helper.py'. Welk coommando gebruikt u als u alle functies en variabelen in dit bestand in een keer wil importeren in uw hoofdcode?
+#from helper import *
+
+#9 U gebruikt het volgende commando om een functie uit een zelfgemaakt pakket te importeren in uw hoofdcode:
+#from mijn_bestand import vermenigvuldigen(a,b)
+#Waarom zult u een foutmelding krijgen? 
+#er zijn haakjes en parameters ingevuld > dient alleen functienaam te vermelden
+
+#10 U gebruikt het volgende commando om een functie uit een zelfgemaakt pakket te importeren in uw hoofdcode:
+# import willekeurige_cijfers.py
+#Waarom zult u een foutmelding krijgen? 
+#zonder .py
